@@ -36,7 +36,3 @@ win_service_manager.start_service('MyOtherService')
 
 ## Error handling
 The script includes error handling using the pywintypes.error exception class, which is raised when a Windows function call fails. This allows you to catch any errors that may occur and take appropriate action, such as logging the error or retrying the operation.
-
-
-## Acknowledgements
-This script uses the win32serviceutil module from the Python for Windows extensions package to interact with the Microsoft Windows application programming interface (API).
